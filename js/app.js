@@ -1,0 +1,1 @@
+$(document).ready((function(){let t=$("header").innerHeight();$("[data-scroll]").on("click",(function(e){e.preventDefault();let l=$(this).data("scroll"),a=$(l).offset().top;$("html, body").animate({scrollTop:a-t},500)})),$(".hamburger").click((function(){$(this).toggleClass("is-active"),$(".nav-wrapper").toggleClass("active"),$("body").toggleClass("lock")}))}));
